@@ -1,15 +1,19 @@
 import React from "react";
 import Banner from "./components/Banner/Banner";
 import Exhibit from "./components/Exhibit/Exhibit";
+import Address from "./components/Address/Address";
 
 const App = () => {
   return (
     <div>
       <Banner />
-      <Exhibit name="Component1"></Exhibit>
-      <Exhibit name="Component2"></Exhibit>
-      <Exhibit name="Component3"></Exhibit>
-      <Exhibit name="Component4"></Exhibit>
+       
+                <Exhibit name="Public IPv4 Address">
+                    <Address url='https://api.ipify.org?format=json' />
+                </Exhibit>
+                <Exhibit name="Public IPv6 Address">
+                    <Address url='https://api64.ipify.org?format=json' />
+                </Exhibit>
     </div>
   );
 };
