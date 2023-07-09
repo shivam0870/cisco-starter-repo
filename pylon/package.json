@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "nodemon": "^3.0.1",
         "websocket": "^1.0.34"
     }
 }
