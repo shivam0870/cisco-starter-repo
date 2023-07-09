@@ -1,15 +1,15 @@
-import React from 'react';
-import Banner from './components/Banner';
-import Exhibit from './components/Exhibit';
+import React from "react";
+import Banner from "./components/Banner/Banner";
+import Exhibit from "./components/Exhibit/Exhibit";
 
 const App = () => {
   return (
     <div>
       <Banner />
-      <Exhibit heading="Example Exhibit">
-        <p>This is the content of the exhibit component.</p>
-        <button>Click me</button>
-      </Exhibit>
+      <Exhibit name="Component1"></Exhibit>
+      <Exhibit name="Component2"></Exhibit>
+      <Exhibit name="Component3"></Exhibit>
+      <Exhibit name="Component4"></Exhibit>
     </div>
   );
 };

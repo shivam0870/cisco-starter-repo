@@ -1,0 +1,10 @@
+.banner {
+    margin: 0.5vw;
+    padding: 0vw 2vw 0vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #fff;
+    background-color: blue;
+    border: 0.25vw solid #005266;
+    border-radius: 2vw;
+}
